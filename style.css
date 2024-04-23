@@ -1,0 +1,55 @@
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe5e5;
+    margin: 0;
+    padding: 0; 
+}
+
+.container {
+    max-width: 800px; 
+    width: 90%; 
+    text-align: center; 
+    padding: 20px; 
+}
+
+.img img {
+    max-width: 100%;
+    height: auto; 
+}
+
+.option {
+    margin-top: 20px; 
+}
+
+.option a {
+    display: inline-block; 
+    width: 100px; 
+    margin: 0 10px; 
+    padding: 10px; 
+    text-decoration: none;
+    font-weight: 600;
+    font-size: larger;
+    color: #ffe5e5;
+    background-color: rgb(23, 15, 3);
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 10px; /* Reduce padding */
+    }
+    .img img {
+        margin-left: 0; /* Center align image */
+    }
+    .option a {
+        width: auto;
+        margin: 5px;
+    }
+}
