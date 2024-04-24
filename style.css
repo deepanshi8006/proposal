@@ -8,6 +8,7 @@ body {
     background-color: #ffe5e5;
     margin: 0;
     padding: 0; 
+    cursor:url(images/lovecur.png), pointer;
 }
 
 .container {
@@ -38,15 +39,16 @@ body {
     background-color: rgb(23, 15, 3);
     border: 1px solid black;
     border-radius: 8px;
+    cursor:url(images/lovecur.png), pointer;
+    
 }
-
 
 @media only screen and (max-width: 600px) {
     .container {
-        padding: 10px; /* Reduce padding */
+        padding: 10px; 
     }
     .img img {
-        margin-left: 0; /* Center align image */
+        margin-left: 0;
     }
     .option a {
         width: auto;
