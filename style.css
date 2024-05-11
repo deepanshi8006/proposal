@@ -42,6 +42,11 @@ body {
     cursor:url(images/lovecur.png), pointer;
     
 }
+.option a:hover{
+    background: rgb(116, 53, 53);
+    box-shadow: 10px 5px 5px pink;
+}
+
 
 @media only screen and (max-width: 600px) {
     .container {
